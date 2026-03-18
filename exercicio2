@@ -1,0 +1,16 @@
+Algoritmo <exercício 2>
+inicio
+
+Var
+
+	fahrenheit, celcius : real;
+
+	escreva ("Temperatura em C: ")
+	leia (celcius)
+
+	fahrenheit = (9 * celcius + 100) / 5
+
+	escreva ("A conversão para F é: ", fahrenheit)
+
+
+fim
