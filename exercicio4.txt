@@ -1,0 +1,22 @@
+Algoritmo <valor depositado e exiba o valor com
+rendimento após um mês>
+inicio
+
+Var
+
+	inteiro valorDepositado
+        real rendimento, total
+
+        escreva("Qual valor a ser depositado: ")
+        leia (valorDepositado)
+  
+        rendimento = (valorDepositado * 0.007)
+
+        escreva ("Seu rendimento apos um mes foi: ", rendimento)
+
+        total = valorDepositado + rendimento
+
+        escreva ("\nSeu saldo total é: ", total)
+
+
+fim
