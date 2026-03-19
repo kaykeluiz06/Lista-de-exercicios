@@ -1,21 +1,7 @@
-# Lista-de-exercicios
-os 10 exercicios resolvidos
-Algoritmo <exercício 1>
-inicio
+# Lista de Exercícios
 
-Var
-	distanciaTotal, volumeTotal : inteiro;
-	media : real;
+Repositório com exercícios de programação.
 
-	escreva ("Quantos Litros usou pra percorrer o trajeto: ")
-	leia (voluleTotal)
-
-	escreva ("Distancia percorrida")
-	leia (distanciaTotal)
-
-	media = distanciaTotal / volumeTotal
-
-	escreva ("Consumo médio do veiculo foi: ", media)
-
-
-fim
+## Exercícios
+- Exercício 1: cálculo de média
+- Exercício 2: cálculo de combustível
