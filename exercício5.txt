@@ -12,6 +12,6 @@ var
 
     total = custoFabrica + impostos + distribuidor
 
-    escreva("Seu veículo sairá por: ", total
+    escreva("Seu veículo sairá por: ", total)
 
 fimalgoritmo
