@@ -1,0 +1,16 @@
+algoritmo "conversao dolar para real"
+
+var
+   real cotacaoDolar, reais, dolaresUsuario
+
+    escreva ("Cotação atual em dolar: ")
+    leia (cotacaoDolar)
+
+    escreva("Quantidade dólares do usuario: ")
+    leia (dolaresUsuario)
+
+    reais = cotacaoDolar * dolaresUsuario
+
+    escreva ("Conversão para a moeda brasileira é: ", reais)
+
+fimalgoritmo
