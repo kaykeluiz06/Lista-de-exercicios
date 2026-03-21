@@ -1,0 +1,53 @@
+Algoritmo <Pedir valor do carro, calcular desconto, fazer contagem de carros ate 201o e somatória geral de carros>
+
+    inteiro anoVeiculo
+    inteiro totalAte2010 = 0
+    inteiro totalGeral = 0
+
+    real valorFinal, desconto, valorCarro
+    real desconto1 = 0.12
+    real desconto2 = 0.07
+
+    caracter resposta
+
+    resposta = 'S'
+
+    enquanto (resposta != 'N') {
+
+      escreva("Qual valor do carro: ")
+      leia(valorCarro)
+
+      escreva("Qual ano do veiculo: ")
+      leia(anoVeiculo)
+
+      se (anoVeiculo <= 2010) {
+
+        desconto = desconto1 * valorCarro
+        valorFinal = valorCarro - desconto
+
+        escreva("Seu desconto sera de 12%")
+        escreva("\nValor do desconto: ", desconto)
+        escreva("\nSeu preco final e: ", valorFinal)
+
+        totalAte2010 = totalAte2010 + 1
+
+      } senao {
+
+        desconto = desconto2 * valorCarro
+        valorFinal = valorCarro - desconto
+
+        escreva("Seu desconto sera de 7%")
+        escreva("\nValor do desconto: ", desconto)
+        escreva("\nSeu preco final e: ", valorFinal)
+      }
+
+      totalGeral = totalGeral + 1
+
+      escreva("\nDeseja adicionar outro carro? Responda com S ou N: ")
+      leia(resposta)
+    }
+
+    escreva("\nTotal de carros com ano ate 2010: ", totalAte2010)
+    escreva("\nTotal geral de carros: ", totalGeral)
+  }
+}

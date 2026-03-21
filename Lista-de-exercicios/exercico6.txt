@@ -1,0 +1,33 @@
+algoritmo <Pedir 2 num ao usuário, olhar qual é maior e selecionar em qual faixa o num esta>
+
+    var
+	inteiro num1, num2, maior
+
+        escreva("Digite o primeiro numero: ")
+        leia(num1)
+
+	escreva("Digite o segundo numero: ")
+	leia(num2)
+
+	se (num1 > num2) {
+	maior = num1
+	} senao {
+	maior = num2
+	}
+
+	escreva("O maior numero e: ", maior)
+
+	se (maior >= 1 e maior <= 99) 
+	{
+	escreva("\n O maior numero esta entre 1 e 99")
+	} 
+	senao se (maior >= 100 e maior <= 199)
+	{	
+	escreva("\n O maior numero esta entre 100 e 199")	
+	} 
+	senao 
+	{
+	escreva("\n O maior numero e maior que 200")
+	}
+
+fimalgoritmo

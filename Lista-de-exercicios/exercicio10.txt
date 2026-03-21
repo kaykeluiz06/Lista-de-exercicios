@@ -1,0 +1,43 @@
+algoritmo <tabuada, com os numeros e operadores que o usuraio selecionar>
+
+  funcao tabuada(inteiro n, caracter o, inteiro t) {
+    inteiro i
+
+    para (i = 1; i <= t; i++) {
+
+      se (o == 'S') {
+        escreva("\n", n, " + ", i, " = ", n + i)
+
+      } senao se (o == 'U') {
+        escreva("\n", n, " - ", i, " = ", n - i)
+
+      } senao se (o == 'M') {
+        escreva("\n", n, " x ", i, " = ", n * i)
+
+      } senao se (o == 'D') {
+        escreva("\n", n, " / ", i, " = ", n / i)
+
+      } senao {
+        escreva("\nOperador invalido.")
+        pare
+      }
+    }
+  }
+
+  funcao inicio() {
+    inteiro n, t
+    caracter o
+
+    escreva("Digite o numero da tabuada: ")
+    leia(n)
+
+    escreva("Digite o operador (S, U, M, D): ")
+    leia(o)
+
+    escreva("Digite ate qual numero deseja calcular: ")
+    leia(t)
+
+    tabuada(n, o, t)
+  }
+
+}

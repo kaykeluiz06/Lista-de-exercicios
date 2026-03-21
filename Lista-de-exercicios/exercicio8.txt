@@ -1,0 +1,21 @@
+algoritmo <receber idade e mostrar se é menor/maior de idade ou idoso>
+programa {
+  funcao inicio() {
+    inteiro idade, contador
+
+    para (contador = 1; contador <= 75; contador++) {
+      escreva("Digite a idade da pessoa ", contador, ": ")
+      leia(idade)
+
+      se (idade >= 60) {
+        escreva("idoso\n")
+      } senao {
+        se (idade >= 18) {
+          escreva("maior de idade\n")
+        } senao {
+          escreva("menor de idade\n")
+        }
+      }
+    }
+  }
+}

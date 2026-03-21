@@ -1,0 +1,30 @@
+Algoritmo <exercício ler o nome e as notas e calcular media>
+
+    var
+	cadeia nome
+        inteiro nota1, nota2, nota3
+        real media
+
+	escreva("Aluno: ")
+        leia (nome)
+
+        escreva("Digite primeira nota: ")
+        leia(nota1)
+
+        escreva("Digite segunda nota: ")
+        leia(nota2)
+
+        escreva ("Digite terceira nota: ")
+        leia (nota3)
+
+        media = (nota1 + nota2 + nota3) / 3
+
+       se (media >= 0 e media <= 5){
+       escreva("REPROVADO")
+       } senao se (media >= 5.1 e media <= 6.9){
+       escreva ("RECUPERAÇÃO")
+       } senao {
+       escreva ("APROVADO")
+      }
+
+fimalgoritmo
